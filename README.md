@@ -7,7 +7,7 @@ This repository contains automated test scenarios for the login/logout functiona
 
 
 ## Getting Started
-
+```
 1. Clone the repository:
    git clone https://github.com/DarshanR1510/bahwan_cy_task
 2. Install the dependencies:
@@ -23,11 +23,11 @@ Test Scenarios:
 Feature: Login functionality
 
   Scenario: Successful login
-    -Given I am on the login page
-    -When I fill in valid username 
-    -And I fill in valid password
-    -And I click the login button
-    -Then I should be redirected to the dashboard page
+    Given I am on the login page
+    When I fill in valid username 
+    And I fill in valid password
+    And I click the login button
+    Then I should be redirected to the dashboard page
 
   Scenario: Logout after successful login
     Given I am logged in
@@ -47,3 +47,4 @@ Feature: Login functionality
     And I click on the login button
     Then I should be redirected back to the login page
     And a login error message should appear
+```
