@@ -1,0 +1,11 @@
+# .gitignore
+
+# Cypress specific files
+/cypress/videos
+/cypress/screenshots
+
+# Dependency directories
+/node_modules
+
+# Environment variables file
+.env
