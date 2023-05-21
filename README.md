@@ -7,19 +7,26 @@ This repository contains automated test scenarios for the login/logout functiona
 
 
 ## Getting Started
-```
+
 1. Clone the repository:
-   git clone https://github.com/DarshanR1510/bahwan_cy_task
+```
+git clone https://github.com/DarshanR1510/bahwan_cy_task
+```
 2. Install the dependencies:
-   npm install
+```
+npm install
+```
 3. Build the Docker image:
-   docker build -t bahwan_cy_task .
+```
+docker build -t bahwan_cy_task .
+```
 4. Run the tests in a Docker container:
-   docker run --rm bahwan_cy_task
-   
+```
+docker run --rm bahwan_cy_task
+```   
    
 Test Scenarios:
-
+```
 Feature: Login functionality
 
   Scenario: Successful login
