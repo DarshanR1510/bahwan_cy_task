@@ -23,11 +23,11 @@ Test Scenarios:
 Feature: Login functionality
 
   Scenario: Successful login
-    Given I am on the login page
-    When I fill in valid username 
-    And I fill in valid password
-    And I click the login button
-    Then I should be redirected to the dashboard page
+    -Given I am on the login page
+    -When I fill in valid username 
+    -And I fill in valid password
+    -And I click the login button
+    -Then I should be redirected to the dashboard page
 
   Scenario: Logout after successful login
     Given I am logged in
